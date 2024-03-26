@@ -10,6 +10,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart, faUser } from "@fortawesome/free-regular-svg-icons";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 203682;
 export default function Header() {
   const [isNavVisible, setIsNavVisible] = useState(false);
