@@ -70,11 +70,15 @@ export default function Header() {
           isNavVisible ? "" : "hidden"
         }`}
       >
-        <button>Home</button>
-        <button>About</button>
-        <button>Team</button>
-        <button>Pricing</button>
-        <button>Contact</button>
+        <Link to="/">
+          {" "}
+          <button className="  hover:text-[#203682]">Anasayfa</button>
+        </Link>
+        <button>Hakkımızda</button>
+        <button>Takım</button>
+        <Link to="/contact">
+          <button>İletişim</button>{" "}
+        </Link>
       </nav>
     </div>
   );
