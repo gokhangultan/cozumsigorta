@@ -27,11 +27,17 @@ export default function Header() {
           />
         </logo>
         <nav className=" hidden lg:flex flex-col sm:flex-row justify-between gap-3 basis-2/6 header-nav ">
-          <button className="  hover:text-[#203682]">Home</button>
-          <button>About</button>
-          <button>Team</button>
-          <button>Pricing</button>
-          <button>Contact</button>
+          <button
+            onClick={() => (window.location.href = "/")}
+            className="  hover:text-[#203682]"
+          >
+            Anasayfa
+          </button>
+          <button>Hakkımızda</button>
+          <button>Takım</button>
+          <button onClick={() => (window.location.href = "/contact")}>
+            İletişim
+          </button>{" "}
         </nav>
         <div className="flex flex-col sm:flex-row justify-between gap-5 basis-1/12 items-center ">
           <button>
