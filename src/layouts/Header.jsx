@@ -33,7 +33,10 @@ export default function Header() {
             <button className="  hover:text-[#203682]">Anasayfa</button>
           </Link>
           <button>Hakkımızda</button>
-          <button>Takım</button>
+          <Link to="/team">
+            {" "}
+            <button>Takım</button>
+          </Link>
           <Link to="/contact">
             <button>İletişim</button>{" "}
           </Link>
@@ -75,7 +78,10 @@ export default function Header() {
           <button className="  hover:text-[#203682]">Anasayfa</button>
         </Link>
         <button>Hakkımızda</button>
-        <button>Takım</button>
+        <Link to="/team">
+          {" "}
+          <button>Takım</button>
+        </Link>
         <Link to="/contact">
           <button>İletişim</button>{" "}
         </Link>
