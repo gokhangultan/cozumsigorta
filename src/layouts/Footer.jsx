@@ -83,10 +83,10 @@ export default function Footer() {
             <Link to="/contact" className="footer-link">
               İletişim
             </Link>
-            <Link to="" className="footer-link">
+            <Link to="/about" className="footer-link">
               Hakkımızda
             </Link>
-            <Link to="" className="footer-link">
+            <Link to="/team" className="footer-link">
               Team
             </Link>
           </div>

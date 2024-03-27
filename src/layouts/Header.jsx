@@ -32,7 +32,9 @@ export default function Header() {
             {" "}
             <button className="  hover:text-[#203682]">Anasayfa</button>
           </Link>
-          <button>Hakkımızda</button>
+          <Link to="/about">
+            <button>Hakkımızda</button>
+          </Link>{" "}
           <Link to="/team">
             {" "}
             <button>Takım</button>
@@ -41,7 +43,7 @@ export default function Header() {
             <button>İletişim</button>{" "}
           </Link>
         </nav>
-        <div className="flex flex-col sm:flex-row justify-between gap-5 basis-1/12 items-center ">
+        <div className="flex  flex-row justify-between gap-5 basis-1/12 items-center ">
           <button>
             <FontAwesomeIcon
               icon={faCarBurst}
@@ -77,7 +79,9 @@ export default function Header() {
           {" "}
           <button className="  hover:text-[#203682]">Anasayfa</button>
         </Link>
-        <button>Hakkımızda</button>
+        <Link to="/about">
+          <button>Hakkımızda</button>
+        </Link>
         <Link to="/team">
           {" "}
           <button>Takım</button>

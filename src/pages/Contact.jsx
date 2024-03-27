@@ -38,7 +38,7 @@ export default function Contact() {
           >
             MESAJ GÖNDER
           </button>
-          203682
+          M. Kemal Sahil Bul. No:615 A Göztepe Konak İzmir
           <div className="flex flex-col sm:flex-row gap-2">
             <button
               className="flex flex-row gap-2  px-4 py-2 rounded-lg bg-[#203682]"
